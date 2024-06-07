@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <title>Age Calculator App</title>
+  
+</head>
+<body>
+  <main>
+    <div class="main_container">
+      <form action="" id="age-form">
+        <fieldset>
+          <div class="wrapper">
+            <label for="day">DAY</label>
+            <input type="number" placeholder="DD" id="day">
+            <p id="day-error" class="error"></p>
+          </div>
+          <div class="wrapper">
+            <label for="month">MONTH</label>
+            <input type="number" placeholder="MM" id="month">
+            <p id="month-error" class="error"></p>
+          </div>
+          <div class="wrapper">
+            <label for="year">YEAR</label>
+            <input type="number" placeholder="YYYY" id="year">
+            <p id="year-error" class="error"></p>
+          </div>
+        </fieldset> 
+      </form>
+      <div class="separator">
+        <hr>
+        <div class="bg">
+          <img src="assets/images/icon-arrow.svg" alt="" id="calculate-arrow">
+        </div>
+      </div>
+      <div class="flex_group">
+        <span class="years" id="years">--</span>
+        <p>years</p>
+      </div>
+      <div class="flex_group">
+        <span class="months" id="months">--</span>
+        <p>months</p>
+      </div>
+      <div class="flex_group">
+        <span class="days" id="days">--</span>
+        <p>days</p>
+      </div>
+    </div>
+  </main>
+  <script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,4 +1,5 @@
-import { CountUp } from '../node_modules/countup.js/dist/countUp.js';
+import { CountUp } from 'countup.js';
+
 document.addEventListener("DOMContentLoaded", function() {
 
 
